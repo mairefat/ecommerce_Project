@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.navigation-tabs {
+  width: 83%;
+  background-color: darkgray;
+  margin-left: 7%;
+  margin-top: 3%;
+  font-size: large;
+}
+li {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 20px;
+  justify-content: space-between;
+  color: azure;
+}
+.icon{
+  padding: 0 3px;
+  margin-right: 22px;
+  background-color: blue;
+  border-radius: 20%;
+  color: azure;
+  font-weight: bolx;
+  position: relative;
+
+}
+
+.count{
+  margin-left: 5px;
+ 
+}
+
+.navbar-toggler-icon{
+ 
+ 
+}
+@media screen {
+  .navbar-toggler{
+ margin-right: 30px;
+ 
+  }
+  
+}
+
+@media (min-width: 500px){
+  .navbar-toggler{
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  img {
+      width:100%;
+  }
+  .container {
+      max-width:100%;
+      width: 100%;
+  }
+  .col-md-3{
+      width:100%;
+      float:left;
+      margin:0;
+  }
+  }
+
+/* a {
+  color: black !important;
+} */
+li:hover {
+  background-color: lightgray;
+}
+
+/* .col.img{
+  height: 50%;
+} */
+
